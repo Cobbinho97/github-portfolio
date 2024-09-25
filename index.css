@@ -29,7 +29,7 @@
     --line-height-small: 1.2;
 
     --black: #000;
-    --pink: #ff3258;
+    --blue: #0047AB;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -46,7 +46,7 @@
     --gutter-small: 2rem;
 
     --border-light: 1px solid rgb(36, 35, 35);
-}
+}#ff3258
 
 html {
     font-size: 62.5%; /* (16/10)*100 = 62.5% => 1rem = 10px */
@@ -144,7 +144,7 @@ h2::after {
     display: block;
     height: 2px;
     width: 10rem;
-    background: var(--pink);
+    background: var(--blue);
     margin: var(--gutter-small) 0;
 }
 
@@ -195,7 +195,7 @@ a {
 
 button:focus,
 a:focus {
-    outline: 2px solid var(--pink);
+    outline: 2px solid var(--blue);
 }
 
 body:not(.user-is-tabbing) button:focus,
@@ -204,7 +204,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link:hover {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .btn {
@@ -213,7 +213,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: 1rem 4.2rem;
     text-decoration: none;
     color: inherit;
-    border: 1px solid  var(--pink);
+    border: 1px solid  var(--blue);
     font-weight: 400;
 }
 
@@ -237,22 +237,22 @@ body:not(.user-is-tabbing) a:focus {
 .btn:hover::after,
 .btn:focus::after {
     right: 0;
-    background: var(--pink);
+    background: var(--blue);
 }
 
-.btn--pink {
-    background: var(--pink);
+.btn--blue {
+    background: var(--blue);
     transition: all 0.2s;
 }
 
-.btn--pink::after {
+.btn--blue::after {
     display: none;
 }
 
-.btn--pink:hover,
-.btn--pink:focus {
-    background: transparent;
-}
+    .btn--blue:hover,
+    .btn--blue:focus {
+        background: transparent;
+    }
 
 .link__text {
     position: relative;
@@ -260,7 +260,7 @@ body:not(.user-is-tabbing) a:focus {
     padding: .6rem;
     color: inherit;
     text-decoration: none;
-    border-bottom: 1px solid var(--pink);
+    border-bottom: 1px solid var(--blue);
 }
 
 .link__text::after {
@@ -283,7 +283,7 @@ body:not(.user-is-tabbing) a:focus {
 .link__text:hover::after,
 .link__text:focus:after {
     right: 0;
-    background: var(--pink);
+    background: var(--blue);
 }
 
 .link__text span {
@@ -302,7 +302,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     height: 5.5rem;
     width: 5.5rem;
-    background-color: var(--pink);
+    background-color: var(--blue);
     border-radius: 50%;
     z-index: 10;
     visibility: hidden;
@@ -384,13 +384,13 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link:hover {
-    color: var(--pink);
+    color: var(--blue);
 }
 
 .nav__link:hover::after {
     right: 0;
     height: 2px;
-    background: var(--pink);
+    background: var(--blue);
 }
 
 /* --------------------------------------- */
@@ -586,7 +586,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .footer__social-image {
-    height: 4rem;
+    height: 3.0rem;
 }
 
 .footer__github-buttons {
@@ -595,7 +595,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .footer__github-buttons iframe {
-    height: 2.5rem;
+    height: 3.0rem;
     width: 84px;
     transform: translateY(3px);
 }
