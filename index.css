@@ -75,13 +75,13 @@ body {
     margin: 0 auto;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 1200px) {
     .row {
-        max-width: 1000px;
+        max-width: 1100px;
     }
 }
 
-@media(max-width: 1150px) {
+@media(max-width: 500px) {
     .row {
         padding: 0 var(--gutter-medium);
     }
