@@ -81,7 +81,7 @@ body {
     }
 }
 
-@media(max-width: 500px) {
+@media(max-width: 1150px) {
     .row {
         padding: 0 var(--gutter-medium);
     }
@@ -128,7 +128,7 @@ h3 {
     font-weight: 500;
 }
 
-@media(max-width: 800px) {
+@media(max-width: 1200px) {
     .heading-primary {
         font-size: 6.0rem;
     }
