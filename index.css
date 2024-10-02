@@ -34,16 +34,16 @@
     --white-1: #e5e5e6da;
 
 
-    --container-max-width: 1250px;
-    --container-normal-width: 900px;
-    --container-medium-width: 900px; 
-    --container-small-width: 600px;
+    --container-max-width: 1000px;
+    --container-normal-width: 800px;
+    --container-medium-width: 800px; 
+    --container-small-width: 500px;
 
-    --gutter-huge: 14rem;
-    --gutter-medium: 7rem;
-    --gutter-normal: 4rem;
-    --gutter-small-1: 4rem;
-    --gutter-small: 4rem;
+    --gutter-huge: 12rem;
+    --gutter-medium: 6rem;
+    --gutter-normal: 3rem;
+    --gutter-small-1: 3rem;
+    --gutter-small: 3rem;
 
     --border-light: 1px solid rgb(36, 35, 35);
 }#ff3258
@@ -54,7 +54,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 900px) {
     html {
         font-size: 50%;
     }
@@ -63,7 +63,7 @@ html {
 body {
     font-size: var(--font-size-small);
     font-family: var(--font-stack);
-    font-weight: 400;
+    font-weight: 500;
     color: var(--white-1);
     line-height: var(--line-height-normal);
     background: var(--black);
@@ -75,25 +75,25 @@ body {
     margin: 0 auto;
 }
 
-@media(max-width: 1340px) {
+@media(max-width: 1200px) {
     .row {
         max-width: 1100px;
     }
 }
 
-@media(max-width: 1240px) {
+@media(max-width: 1150px) {
     .row {
         padding: 0 var(--gutter-medium);
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
     .row {
         padding: 0 var(--gutter-normal);
     }
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
     .row {
         padding: 0 var(--gutter-small);
     }
@@ -117,7 +117,7 @@ h1,
 h2,
 h3 {
     font-family: 'SalmaPro', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     line-height: var(--line-height-small);
     color: var(--white);
 }
@@ -125,12 +125,12 @@ h3 {
 .heading-primary {
     line-height: 1;
     font-size: var(--font-size-huge);
-    font-weight: 400;
+    font-weight: 500;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 800px) {
     .heading-primary {
-        font-size: 6.5rem;
+        font-size: 6.0rem;
     }
 }
 
@@ -142,8 +142,8 @@ h2 {
 h2::after {
     content: '';
     display: block;
-    height: 2px;
-    width: 10rem;
+    height: 1.5px;
+    width: 8rem;
     background: var(--blue);
     margin: var(--gutter-small) 0;
 }
@@ -153,7 +153,7 @@ h3 {
     margin-bottom: var(--gutter-small);
 }
 
-@media(max-width: 500px) {
+@media(max-width: 450px) {
     .heading-primary {
         font-size: var(--font-size-large);
     }
@@ -171,7 +171,7 @@ p {
     margin: var(--gutter-small-1) 0;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 800px) {
     p { 
         max-width: var(--container-small-width);
     }
@@ -183,7 +183,7 @@ p {
 
 a {
     color: var(--white);
-    font-weight: 400;
+    font-weight: 500;
     font-family: 'SalmaPro', sans-serif;
     transition: all .2s;
     outline: 2px solid transparent;
@@ -295,13 +295,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .back-to-top {
     position: fixed;
-    bottom: 4rem;
-    right: 4rem;
+    bottom: 3.5rem;
+    right: 3.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 5.0rem;
+    width: 5.0rem;
     background-color: var(--blue);
     border-radius: 50%;
     z-index: 10;
@@ -310,10 +310,10 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .back-to-top__image {
-    height: 70%;
+    height: 60%;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 900px) {
     .back-to-top {
         right: 2rem;
     }
@@ -400,7 +400,7 @@ body:not(.user-is-tabbing) a:focus {
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
         url('./images/header.jpg');
-    height: 200vh;
+    height: 150vh;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -409,8 +409,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 60%;
-    transform: translateY(-60%);
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .header__text p {
@@ -420,7 +420,7 @@ body:not(.user-is-tabbing) a:focus {
     font-size: var(--font-size-medium);
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
     .header {
         text-align: center;
     }
@@ -439,7 +439,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 900px) {
     .portfolio__box {
         align-items: initial;
         flex-direction: column-reverse;
@@ -447,12 +447,12 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .portfolio__box:not(:last-child) {
-    margin-bottom: 30rem;
+    margin-bottom: 20rem;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
     .portfolio__box:not(:last-child) {
-        margin-bottom: 25rem;
+        margin-bottom: 20rem;
     }
 }
 
@@ -473,7 +473,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .portfolio__code {
     display: block;
-    height: 4rem;
+    height: 3.5rem;
     margin-left: var(--gutter-normal);
     transition: all .3s;
 }
@@ -486,42 +486,16 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 900px) {
     .portfolio__image-box {
         flex: 1;
         margin: 0 0 0 10rem;
     }
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 900px) {
     .portfolio__code {
-        height: 5rem;
-    }
-}
-
-/* --------------------------------------- */
-/* ----- Clients ----- */
-/* --------------------------------------- */
-
-.client__logos {
-    display: flex;
-    justify-content: space-between;
-    filter: invert(100%) grayscale(100%) opacity(.8);
-}
-
-.client__logo {
-    height: 6.5rem;
-    max-width: 18rem;
-}
-
-@media(max-width: 1300px) {
-    .client__logos {
-        overflow-x: scroll;
-        padding: var(--gutter-normal);
-    }
-
-    .client__logo:not(:last-of-type) {
-        margin-right: var(--gutter-medium);
+        height: 4.5rem;
     }
 }
 
@@ -535,7 +509,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 800px) {
     .about__content {
         flex-direction: column-reverse;
         align-items: initial;
@@ -546,7 +520,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 901px) {
+@media(min-width: 800px) {
     .about__text {
         flex: 0 0 35%;
     }
