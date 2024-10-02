@@ -54,7 +54,7 @@ html {
     scroll-behavior: smooth;
 }
 
-@media(max-width: 900px) {
+@media(max-width: 1200px) {
     html {
         font-size: 50%;
     }
@@ -520,7 +520,7 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 800px) {
     .about__text {
         flex: 0 0 35%;
     }
