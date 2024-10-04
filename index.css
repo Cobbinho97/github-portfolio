@@ -509,7 +509,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
 }
 
-@media(max-width: 2600px) {
+@media(max-width: 500px) {
     .about__content {
         flex-direction: column-reverse;
         align-items: initial;
@@ -520,13 +520,13 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 800px) {
+@media(min-width: 500px) {
     .about__text {
         flex: 0 0 35%;
     }
     
     .about__photo-container {
-        flex: 1;
+        flex: 2;
         margin: 0 var(--gutter-huge) 0 0;
     }
 }
