@@ -3,10 +3,10 @@
 /* --------------------------------------- */
 
 @font-face {
-    font-family: 'SalmaPro';
+    font-family: 'Mangiola-Regular';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/SalmaPro-Regular.woff') format('woff');
+    src: url('./fonts/Mangiola-Regular.woff') format('woff');
 }
 
 
@@ -23,7 +23,7 @@
     --font-size-medium-1: 3.2rem;
     --font-size-large: 5.0rem;
     --font-size-huge: 7.0rem;
-    --font-stack: 'SalmaPro', sans-serif;
+    --font-stack: 'Mangiola-Regular', sans-serif;
 
     --line-height-normal: 1.5;
     --line-height-small: 1.1;
@@ -116,7 +116,7 @@ img {
 h1,
 h2,
 h3 {
-    font-family: 'SalmaPro', sans-serif;
+    font-family: 'Mangiola-Regular', sans-serif;
     font-weight: 500;
     line-height: var(--line-height-small);
     color: var(--white);
@@ -184,7 +184,7 @@ p {
 a {
     color: var(--white);
     font-weight: 500;
-    font-family: 'SalmaPro', sans-serif;
+    font-family: 'Mangiola-Regular', sans-serif;
     transition: all .2s;
     outline: 2px solid transparent;
 }
@@ -416,7 +416,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text p {
     margin: 2.0rem 0 4.0rem;
     max-width: var(--container-medium-width);
-    font-family: 'SalmaPro', sans-serif;
+    font-family: 'Mangiola-Regular', sans-serif;
     font-size: var(--font-size-medium);
 }
 
