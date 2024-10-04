@@ -332,7 +332,7 @@ body:not(.user-is-tabbing) a:focus {
 .nav {
     display: flex;
     justify-content: flex-end;
-    padding: var(--gutter-normal) 0;
+    padding: var(--gutter-small) 0;
 }
 
 .nav__items {
@@ -520,14 +520,14 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-@media(min-width: 500px) {
+@media(min-width: 700px) {
     .about__text {
-        flex: 0 0 35%;
+        flex: 0 0 65%;
     }
     
     .about__photo-container {
         flex: 1;
-        margin: 0 var(--gutter-huge) 0 30.0rem;
+        margin: 0 var(--gutter-huge) 0 0;
     }
 }
 
